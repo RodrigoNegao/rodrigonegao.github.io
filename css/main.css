@@ -13,16 +13,14 @@ text-transform: uppercase;
 color: white;
 border: 0;
 background-color: #00aeff;
-font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 /* default color "#00aeff" */
 
 #mainNav .navbar-brand {
 color: #00aeff;
-font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+font-family: 'Press Start 2P', cursive;
 }
-
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
 color: #00aeff;
 }
