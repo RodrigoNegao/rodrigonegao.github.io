@@ -19,7 +19,8 @@ background-color: #00aeff;
 
 #mainNav .navbar-brand {
 color: #00aeff;
-font-family: 'Press Start 2P', cursive;
+font-family: 'Bangers', cursive;
+font-size: 2rem;
 }
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
 color: #00aeff;

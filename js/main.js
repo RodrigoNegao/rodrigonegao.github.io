@@ -39,17 +39,17 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  var $backToTop = $('#backToTop');
+  // var $backToTop = $('#backToTop');
 
-        $backToTop.on('click', 'a', function (e) {
-            e.preventDefault();
+  //       $backToTop.on('click', 'a', function (e) {
+  //           e.preventDefault();
 
-            $('html, body').animate({
-                scrollTop: 0
-            }, 1200);
-        });
-    });
+  //           $('html, body').animate({
+  //               scrollTop: 0
+  //           }, 1200);
+  //       });
+  //   });
 
 })(jQuery); // End of use strict
 
-//TODO SCROLL ANIMATION, CONTACT ME (SEND TO EMAIL)
+//TODO SCROLL ANIMATION, CONTACT ME , backToTop (SEND TO EMAIL)
