@@ -72,11 +72,24 @@ color: #00aeff;
     transform: translateY(50px);
     transition: all 1s ease-out;
 }
-
 .project.fade-in {
     opacity: 1;
     transform: translateY(0)
 }
+
+/* fade start right */
+
+.project-right {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 1s ease-out;
+}
+
+.project-right.fade-right {
+    opacity: 1;
+    transform: translateX(0);
+}
+
 
 h1,
 h2,
