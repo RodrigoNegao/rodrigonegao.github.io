@@ -38,7 +38,7 @@ font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
 color: #00aeff;
 }
-  
+
 @media (min-width: 992px) {
 #mainNav {
     padding-top: 25px;
@@ -67,6 +67,16 @@ color: #00aeff;
 }
 }
 
+.project {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease-out;
+}
+
+.project.fade-in {
+    opacity: 1;
+    transform: translateY(0)
+}
 
 h1,
 h2,
@@ -76,7 +86,7 @@ h5,
 h6{
     font-weight: 700;
 }
-header.masthead{
+header.masthead {
     position: relative;
     background-color: #343a40;
     background: url("../img/coding.jpg") no-repeat center center;
