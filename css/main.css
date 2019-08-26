@@ -65,7 +65,6 @@ color: #00aeff;
     font-size: 1.25em;
     padding: 12px 0;
 }
-}
 
 .project {
     opacity: 0;
@@ -89,7 +88,6 @@ color: #00aeff;
     opacity: 1;
     transform: translateX(0);
 }
-
 
 h1,
 h2,
