@@ -17,6 +17,12 @@ background-color: #00aeff;
 
 /* default color "#00aeff" */
 
+.name1 {
+    color: #00aeff;
+    font-family: 'Bangers', cursive;
+    font-size: 3rem;
+}
+
 #mainNav .navbar-brand {
 color: #00aeff;
 font-family: 'Bangers', cursive;
@@ -156,7 +162,7 @@ header.masthead h1{
     background-size: cover;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 960px) {
     .showcase .showcase-text {
         padding: 7rem;
     }
