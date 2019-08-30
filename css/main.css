@@ -18,7 +18,7 @@ background-color: #00aeff;
 /* default color "#00aeff" */
 
 /* .name1 {
-    color: #00aeff;
+    
     font-family: 'Bangers', cursive;
     font-size: 3rem;
 } */
@@ -95,14 +95,13 @@ color: #00aeff;
     transform: translateX(0);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
-    font-weight: 700;
+@media (min-width: 768px) {
+    header.masthead h1{
+        font-size: 3rem;
+        color: #00aeff;
+    }
 }
+
 header.masthead {
     position: relative;
     background-color: #343a40;
@@ -111,11 +110,15 @@ header.masthead {
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
-@media (min-width: 768px) {
-    header.masthead h1{
-        font-size: 3rem;
-    }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: 700;
 }
+
 
 /* change color inside .svg*/
 
@@ -123,7 +126,6 @@ header.masthead {
     display: flex; 
     justify-content: center;
 }
-
 
 .features-icons {
     padding-top: 7rem;
@@ -138,11 +140,11 @@ header.masthead {
 .features-icons .features-icons-item .features-icons-icon {
     height: 7rem;
   }
-  
+
 .features-icons .features-icons-item .features-icons-icon i {
     font-size: 4.5rem;
   }
-  
+
 .features-icons .features-icons-item:hover .features-icons-icon i {
     font-size: 5rem;
   }
@@ -151,9 +153,11 @@ header.masthead {
 .section-heading {
     padding-top: 4rem;
 }
+
 .section-subheading {
     padding-bottom: 2rem;
 }
+
 .showcase .showcase-text {
     padding: 3rem;
 }
