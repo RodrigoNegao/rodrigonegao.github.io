@@ -17,6 +17,12 @@ background-color: #00aeff;
 
 /* default color "#00aeff" */
 
+/* .name1 {
+    color: #00aeff;
+    font-family: 'Bangers', cursive;
+    font-size: 3rem;
+} */
+
 #mainNav .navbar-brand {
 color: #00aeff;
 font-family: 'Bangers', cursive;
@@ -39,7 +45,7 @@ font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto
 color: #00aeff;
 }
 
-@media (min-width: 992px) {
+
 #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -97,7 +103,6 @@ h5,
 h6{
     font-weight: 700;
 }
-
 header.masthead {
     position: relative;
     background-color: #343a40;
@@ -106,16 +111,11 @@ header.masthead {
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
-
-header.masthead h1{
-    font-size: 2rem;
+@media (min-width: 768px) {
+    header.masthead h1{
+        font-size: 3rem;
+    }
 }
-
-/* #name1 , .name1, h1{
-    color: #00aeff;
-    font-family: 'Bangers', cursive;
-    font-size: 2rem;
-} */
 
 /* change color inside .svg*/
 
