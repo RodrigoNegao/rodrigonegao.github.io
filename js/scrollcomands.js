@@ -13,7 +13,7 @@ $(document).ready(function(){
     var ourScene02 = new ScrollMagic.Scene({
         triggerElement: '#animation02'
     })
-    .setClassToggle('#animation02', 'fade-right') //add class project01
+    .setClassToggle('#animation02', 'fade-in') //add class project01
     //.addIndicators() // this is require plugin
     .addTo(controller);
 

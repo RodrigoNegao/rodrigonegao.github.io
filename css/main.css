@@ -84,7 +84,7 @@ color: #00aeff;
 
 /* fade start right */
 
-.project-right {
+/* .project-right {
     opacity: 0;
     transform: translateX(50px);
     transition: all 1s ease-out;
@@ -93,7 +93,7 @@ color: #00aeff;
 .project-right.fade-right {
     opacity: 1;
     transform: translateX(0);
-}
+} */
 
 @media (min-width: 768px) {
     header.masthead h1{
