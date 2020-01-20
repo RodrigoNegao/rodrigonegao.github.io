@@ -167,9 +167,18 @@ h6{
     background-size: cover;
 }
 
+.logos-svg {
+    width : 380 ;
+    height : 380 ;
+}
+
 @media (min-width: 768px) {
     .showcase .showcase-text {
         padding: 7rem;
+    }
+    .logos-svg {
+        width : 170 ;
+        height : 170 ;
     }
 }
 
