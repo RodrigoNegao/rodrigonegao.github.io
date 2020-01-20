@@ -186,3 +186,41 @@ footer.footer {
     padding-top: 3rem;
     padding-bottom: 2rem;
 }
+
+/* Animition .logos-svg */
+
+#blue-circle {
+    animation: wheel1 3s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#orange-circle {
+    animation: wheel2 6s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#black-circle {
+    animation: wheel1 9s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes wheel1 {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes wheel2 {
+    from{
+        transform: rotateZ(360deg);
+    }
+    to{
+        transform: rotateZ(0deg);
+    }
+}
