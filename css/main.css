@@ -187,7 +187,42 @@ footer.footer {
     padding-bottom: 2rem;
 }
 
+/* id = "grayscale" */
+/*GrayScale*/
+.column1 {
+    display: inline-block;
+    /* background: url("../img/coding.jpg") no-repeat center center; */
+	text-align: center;
+}
+.column1 img {
+    /* display: block; */
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    /* width: auto; 
+    height: auto; */
+}
+.column1 #grayscale-zommIn img {
+    filter: grayscale(100%);
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.column1 #grayscale-zommIn:hover img {
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+
+
 /* Animition .logos-svg */
+#zommIn svg {
+    /* filter: grayscale(100%); */
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+#zommIn:hover svg {
+    /* filter: grayscale(0); */
+    transform: scale(1.5);
+}
 
 #blue-circle {
     animation: wheel1 3s ease infinite;
@@ -223,4 +258,41 @@ footer.footer {
     to{
         transform: rotateZ(0deg);
     }
+}
+
+/* Frames  */
+
+.frame {
+	text-align: center;	
+	position: relative;
+	cursor: pointer;	
+	perspective: 500px; 
+}
+/* .frame img {
+	width: 300px;
+	height: 300px;
+} */
+.frame .details {
+	width: 70%;
+	height: 80%;	
+	padding: 15% 8%;
+	position: absolute;
+	content: "";
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotateY(90deg);
+	transform-origin: 50%;
+	background: rgba(0, 0, 0, 0.959);	
+	opacity: 0;
+    transition: all 0.25s ease-in;
+    /* transform: scale(1); */	
+}
+.frame:hover .details {
+	transform: translate(-50%, -50%) rotateY(0deg);
+    opacity: 1;
+    /* transform: scale(1.2); */
+}
+
+.frame .details .link1{
+    font-size: 2em;
 }
