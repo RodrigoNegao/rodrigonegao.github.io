@@ -1,6 +1,6 @@
 # Portifólio [Link](https://rodrigonegao.github.io/)
 
-- Projeto de um Site Para Portifólio e teste usando Html, CSS e JavaScript.
+- Projeto de um Site Para Portifólio e testes usando BootStrap, Html, CSS e JavaScript.
 
 ## Exemplos:
 
