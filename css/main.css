@@ -22,6 +22,16 @@ background-color: #00aeff;
     font-size: 3rem;
 } */
 
+#mainNav .navbar{
+    opacity: 1 !important;
+}
+
+.c-bottom{
+    color: gray !important;
+    opacity: 0.9 !important;
+    padding-bottom: 50px !important;
+}
+
 .Titulo1{
     background-color: rgba(179, 179, 179, 0.1);
     /* opacity : 0.7; */

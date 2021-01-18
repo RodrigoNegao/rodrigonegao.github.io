@@ -1,26 +1,39 @@
-(function($) {
-  // Closes responsive menu when a scroll trigger link is clicked
-  $('.js-scroll-trigger').click(function() {
-    $('.navbar-collapse').collapse('hide');
-  });
+//Change Year
+const date = new Date();
+document.querySelector('.year').innerHTML = date.getFullYear();
 
-  // Activate scrollspy to add active class to navbar items on scroll
-  $('body').scrollspy({
-    target: '#mainNav',
-    offset: 56
-  });
+// Navbar Scroll Opacity
+$(window).scroll(function () {
+  if ($(window).scrollTop() >= 50) {
+      $('.navbar').css('opacity', '0.9');
+  } else {
+      $('.navbar').css('opacity', '1');
+  }
+});
 
-  // Collapse Navbar
-  var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-shrink");
-    } else {
-      $("#mainNav").removeClass("navbar-shrink");
-    }
-  };
-  // Collapse now if page is not at top
-  navbarCollapse();
-  // Collapse the navbar when page is scrolled
-  $(window).scroll(navbarCollapse);
+// (function($) {
+//   // Closes responsive menu when a scroll trigger link is clicked
+//   $('.js-scroll-trigger').click(function() {
+//     $('.navbar-collapse').collapse('hide');
+//   });
 
-})(jQuery); // End of use strict
+//   // Activate scrollspy to add active class to navbar items on scroll
+//   $('body').scrollspy({
+//     target: '#mainNav',
+//     offset: 56
+//   });
+
+//   // Collapse Navbar
+//   var navbarCollapse = function() {
+//     if ($("#mainNav").offset().top > 100) {
+//       $("#mainNav").addClass("navbar-shrink");
+//     } else {
+//       $("#mainNav").removeClass("navbar-shrink");
+//     }
+//   };
+//   // Collapse now if page is not at top
+//   navbarCollapse();
+//   // Collapse the navbar when page is scrolled
+//   $(window).scroll(navbarCollapse);
+
+// })(jQuery); // End of use strict
