@@ -1,3 +1,10 @@
+:root {
+    --primary-color:  #373435;
+  /* --secundary-color: #FFF212; 
+  --tertiary-color: #FFFFFF;
+  --green-opacity:  rgba(51, 51, 51, 0.8) !important; */
+  /* var(--green-opacity); */
+}
 body {
     font-family: 'Lexend Deca', sans-serif;
 }
@@ -22,15 +29,16 @@ background-color: #00aeff;
     font-size: 3rem;
 } */
 
-#mainNav .navbar{
-    opacity: 1 !important;
-}
+/* nav {
+    background: var(--primary-color) !important;
+    opacity: 0;
+} */
 
-.c-bottom{
+/* .c-bottom{
     color: gray !important;
     opacity: 0.9 !important;
     padding-bottom: 50px !important;
-}
+} */
 
 .Titulo1{
     background-color: rgba(179, 179, 179, 0.1);
@@ -66,8 +74,8 @@ color: #00aeff;
 }
 
 #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 0px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;

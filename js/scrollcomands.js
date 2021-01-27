@@ -39,4 +39,10 @@ $(document).ready(function(){
     })
     .setClassToggle('#animation06', 'fade-in') 
     .addTo(controller);
+
+    var ourScene04 = new ScrollMagic.Scene({
+        triggerElement: '#animation07'
+    })
+    .setClassToggle('#animation07', 'fade-in') 
+    .addTo(controller);
 });
