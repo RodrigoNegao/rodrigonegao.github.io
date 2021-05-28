@@ -1,6 +1,6 @@
 # Portfólio [Link](https://rodrigonegao.github.io/)
 
-- Projeto de um Site Para Portfólio e testes usando BootStrap, Html, CSS e JavaScript.
+- Projeto de um Site para Portfólio e testes usando BootStrap, Html, CSS e JavaScript e Futuramente Axios.
 
 ## Exemplos:
 
