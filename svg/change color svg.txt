@@ -1,3 +1,0 @@
-open with editor text
-and type inside <svg...
-fill="your color"

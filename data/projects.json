@@ -1,0 +1,102 @@
+[
+  {
+    "id": "boleto-bb",
+    "featured": true,
+    "private": true,
+    "year": "2023",
+    "tags": ["NestJS", "TypeScript", "PostgreSQL", "BullMQ", "Redis", "Docker", "OAuth2"],
+    "demo": null,
+    "repo": null
+  },
+  {
+    "id": "gov-backend",
+    "featured": true,
+    "private": true,
+    "year": "2022",
+    "tags": ["NestJS", "TypeScript", "PostgreSQL", "TypeORM", "Docker", "JWT", "MinIO/S3"],
+    "demo": null,
+    "repo": null
+  },
+  {
+    "id": "back-list-api-redis",
+    "featured": false,
+    "private": false,
+    "year": "2022",
+    "tags": ["TypeScript", "Node.js", "Redis"],
+    "demo": null,
+    "repo": "https://github.com/RodrigoNegao/back-list-api-redis-4"
+  },
+  {
+    "id": "docker-django-api",
+    "featured": false,
+    "private": false,
+    "year": "2022",
+    "tags": ["Python", "Django REST", "Docker"],
+    "demo": null,
+    "repo": "https://github.com/RodrigoNegao/DockerDjango-API"
+  },
+  {
+    "id": "course-app",
+    "featured": false,
+    "private": false,
+    "year": "2023",
+    "tags": ["React Native", "Expo", "JavaScript"],
+    "demo": null,
+    "repo": "https://github.com/RodrigoNegao/Course-APP",
+    "release": "https://github.com/RodrigoNegao/Course-APP/releases"
+  },
+  {
+    "id": "myshop-mvc",
+    "featured": false,
+    "private": false,
+    "year": "2023",
+    "tags": ["ASP.NET MVC", "C#", ".NET Framework"],
+    "demo": null,
+    "repo": "https://github.com/RodrigoNegao/MyShopMVC"
+  },
+  {
+    "id": "modelflix",
+    "featured": false,
+    "private": false,
+    "year": "2021",
+    "tags": ["SCSS", "JavaScript", "HTML"],
+    "demo": "https://rodrigonegao.github.io/ModelFlix/",
+    "repo": "https://github.com/RodrigoNegao/ModelFlix"
+  },
+  {
+    "id": "produto-api",
+    "featured": false,
+    "private": false,
+    "year": "2020",
+    "tags": ["Python", "Django REST"],
+    "demo": null,
+    "repo": "https://github.com/RodrigoNegao/ProdutoAPI"
+  },
+  {
+    "id": "codai",
+    "featured": false,
+    "private": false,
+    "year": "2020",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://rodrigonegao.github.io/codai/",
+    "repo": "https://github.com/RodrigoNegao/codai"
+  },
+  {
+    "id": "linkbio",
+    "featured": false,
+    "private": false,
+    "year": "2021",
+    "tags": ["HTML", "CSS"],
+    "demo": "https://rodrigonegao.github.io/linkinbio1/",
+    "repo": "https://github.com/RodrigoNegao/linkinbio1"
+  },
+  {
+    "id": "frontend-player",
+    "featured": false,
+    "private": false,
+    "year": "2020",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://rodrigonegao.github.io/FrontendPlayer/",
+    "repo": "https://github.com/RodrigoNegao/FrontendPlayer"
+  }
+]

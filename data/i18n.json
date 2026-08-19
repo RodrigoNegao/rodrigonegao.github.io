@@ -1,0 +1,441 @@
+{
+  "pt": {
+    "locale": "pt-BR",
+    "meta": {
+      "title": "Rodrigo Pereira — Desenvolvedor Full Stack Sênior",
+      "description": "Desenvolvedor Full Stack Sênior com 6+ anos de experiência em TypeScript, Node.js, NestJS e PostgreSQL. APIs escaláveis, filas assíncronas e segurança de dados.",
+      "keywords": "typescript, node.js, nestjs, postgresql, backend, full stack, react, next.js, docker, aws, redis, bullmq, typeorm, rio grande, brasil, remoto"
+    },
+    "nav": {
+      "brand": "Rodrigo Pereira",
+      "about": "Sobre",
+      "experience": "Experiência",
+      "projects": "Projetos",
+      "stack": "Stack",
+      "contact": "Contato",
+      "menu": "Menu",
+      "lang_group": "Selecionar idioma",
+      "lang_pt": "Mudar para português",
+      "lang_en": "Switch to English"
+    },
+    "hero": {
+      "name": "Rodrigo da Cunha Pereira",
+      "role": "Desenvolvedor Full Stack Sênior",
+      "typing": ["TypeScript", "Node.js", "NestJS", "PostgreSQL"],
+      "tagline": "6+ anos construindo sistemas backend de produção — APIs escaláveis, filas assíncronas e segurança de dados.",
+      "location": "Rio Grande, RS · Aberto a remoto e realocação",
+      "cta_projects": "Ver projetos",
+      "cta_contact": "Entrar em contato"
+    },
+    "about": {
+      "title": "Sobre",
+      "eyebrow": "Quem sou",
+      "summary": "Desenvolvedor Full Stack com mais de 6 anos de experiência entregando sistemas backend de produção, com foco em TypeScript, Node.js/NestJS e PostgreSQL. Projetei e coloquei no ar integrações de API escaláveis — incluindo um serviço de registro de boletos do Banco do Brasil que reduziu o processamento manual em mais de 40% — e construí sistemas de filas assíncronas com BullMQ/Redis que melhoraram a vazão e a resiliência da aplicação.",
+      "summary2": "Tenho experiência prática com deploys cloud-native na AWS, pipelines de CI/CD, Docker e ferramentas de observabilidade. Meu trabalho mais recente é em sistemas do setor público, nos domínios de saúde e judiciário, onde consistência de dados, segurança e migrações sem downtime são requisitos críticos.",
+      "highlights": [
+        { "value": "6+", "label": "anos de experiência" },
+        { "value": "40%", "label": "de redução no processamento manual de pagamentos" },
+        { "value": "5", "label": "empresas e domínios diferentes" }
+      ]
+    },
+    "experience": {
+      "title": "Experiência",
+      "eyebrow": "Trajetória",
+      "current": "atual",
+      "more": "Ver mais",
+      "items": [
+        {
+          "role": "Analista de Desenvolvimento de Software",
+          "company": "Global Hitss",
+          "location": "Brasil (Remoto)",
+          "start": "2022-12",
+          "end": null,
+          "summary": "Desenvolvedor full stack em sistemas de governo nos domínios de saúde e judiciário, com integração a serviços financeiros e regulatórios brasileiros.",
+          "bullets": [
+            "Construí um serviço de registro de boletos integrado à API REST do Banco do Brasil — incluindo autenticação OAuth2, mapeamento de payload e configuração dos ambientes sandbox/HML/produção — reduzindo o esforço manual de processamento de pagamentos em cerca de 40%.",
+            "Projetei pipelines de processamento assíncrono em NestJS com BullMQ e Redis, avaliando múltiplos padrões (polling, webhook, WebSocket, RPC por reply-queue) e escolhendo a abordagem com o melhor equilíbrio entre vazão, manutenibilidade e suporte nativo do NestJS.",
+            "Modelei e mantive schemas PostgreSQL para os domínios de saúde e judiciário, aplicando padrões consistentes de nomenclatura e o padrão Expand-Migrate-Contract para suportar migrações seguras e sem downtime em produção.",
+            "Implementei fluxos de rascunho e submissão com a lógica de validação dividida entre frontend e backend, preservando a integridade dos dados sem abrir mão de uma UX limpa — reduzindo incidentes de perda de dados a praticamente zero.",
+            "Configurei autenticação JWT com refresh tokens, cookies httpOnly, CORS com credenciais e controle de sessão única, fortalecendo a postura de segurança da aplicação.",
+            "Diagnostiquei e resolvi problemas em produção, incluindo registros duplicados de boleto, inconsistências de SQL e divergências de enums e relacionamentos no PostgreSQL rodando em contêineres Docker, melhorando a estabilidade do sistema.",
+            "Usei TypeORM para tabelas de junção e operações transacionais com timeout/rollback, Next.js para debug de SSR e análise de bundle, e MinIO/S3 para integração de armazenamento de arquivos."
+          ]
+        },
+        {
+          "role": "Analista de Desenvolvimento de Software",
+          "company": "Stefanini Brasil",
+          "location": "Brasil (Remoto)",
+          "start": "2021-11",
+          "end": "2022-12",
+          "summary": "Desenvolvedor full stack em projetos corporativos na nuvem.",
+          "bullets": [
+            "Desenvolvi e mantive funcionalidades em TypeScript, Node.js, Angular e MySQL em ambiente AWS com pipelines de CI/CD no Jenkins, contribuindo para ciclos de release mais rápidos e confiáveis.",
+            "Projetei e integrei APIs RESTful dentro de ciclos de sprint Scrum, colaborando entre times para entregar endpoints consistentes e bem documentados.",
+            "Identifiquei e corrigi gargalos de performance e falhas de integração em produção, contribuindo para a melhoria da disponibilidade do sistema."
+          ]
+        },
+        {
+          "role": "Desenvolvedor Full Stack",
+          "company": "Paipe | Tecnologia e Inovação",
+          "location": "Campo Bom, RS, Brasil",
+          "start": "2021-09",
+          "end": "2021-11",
+          "summary": "Backend em NestJS com Arquitetura Hexagonal e frontend em React desde a concepção do projeto.",
+          "bullets": [
+            "Construí funcionalidades de backend em NestJS seguindo princípios de Arquitetura Hexagonal e desenvolvi componentes em React/Material UI, estabelecendo uma base sólida desde o início do projeto.",
+            "Colaborei no design de APIs REST e na integração com o frontend, ajudando a definir os padrões arquiteturais adotados ao longo de todo o projeto."
+          ]
+        },
+        {
+          "role": "Desenvolvedor de Software",
+          "company": "Xerox Komaki",
+          "location": "Rio Grande, RS, Brasil",
+          "start": "2019-01",
+          "end": "2021-09",
+          "summary": "Sistemas web internos e automações, do desenvolvimento ao deploy.",
+          "bullets": [
+            "Desenvolvi e publiquei sistemas web internos e automações usando Node.js, React, Django e React Native na AWS, GitHub Pages e Hostinger, consolidando fluxos de trabalho que antes eram manuais.",
+            "Construí aplicações web sob medida com HTML/CSS/JS, Bootstrap e ASP.NET MVC, cobrindo tanto o ciclo completo de desenvolvimento quanto a prototipação de UI/UX no Figma."
+          ]
+        },
+        {
+          "role": "Técnico de TI",
+          "company": "Xerox Komaki",
+          "location": "Rio Grande, RS, Brasil",
+          "start": "2015-07",
+          "end": "2019-01",
+          "summary": "Suporte e manutenção de sistemas internos, marketing digital e sites.",
+          "bullets": [
+            "Cuidei do suporte de TI, troubleshooting e manutenção dos sistemas internos; gerenciei campanhas de marketing digital e mantive sites em HTML, CSS e JavaScript."
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projetos",
+      "eyebrow": "O que construí",
+      "featured_label": "Destaque",
+      "opensource_label": "Open source",
+      "demo": "Demo",
+      "code": "Código",
+      "release": "Download APK",
+      "private": "Trabalho profissional · código privado",
+      "items": {
+        "boleto-bb": {
+          "name": "Serviço de Registro de Boletos — API Banco do Brasil",
+          "desc": "Integração ponta a ponta com a API REST do Banco do Brasil para registro de boletos, incluindo gestão de tokens OAuth2, mapeamento completo do payload (geração de nosso_numero, formatação de campos FEBRABAN) e suporte aos ambientes sandbox, HML e produção. O processamento assíncrono via BullMQ reduziu a carga síncrona e melhorou a resiliência a timeouts da API externa."
+        },
+        "gov-backend": {
+          "name": "Backend de Saúde e Judiciário — Setor Público",
+          "desc": "Projetei o schema PostgreSQL e a camada de serviços em NestJS de uma plataforma de governo multi-domínio. Implementei migrações sem downtime (Expand-Migrate-Contract), autenticação JWT com controle de sessão única e armazenamento de arquivos compatível com S3. Resolvi problemas críticos de consistência de dados com o sistema em produção."
+        },
+        "modelflix": {
+          "name": "ModelFlix",
+          "desc": "Interface de catálogo de streaming construída com SCSS e JavaScript, com carrosséis responsivos e layout inspirado em plataformas de vídeo."
+        },
+        "frontend-player": {
+          "name": "Frontend Player",
+          "desc": "Interface de player de mídia feita em um fim de semana, com controles customizados em HTML, CSS e JavaScript puro."
+        },
+        "linkbio": {
+          "name": "LinkBio",
+          "desc": "Landing page de links para bio no estilo link-in-bio, leve e totalmente responsiva."
+        },
+        "codai": {
+          "name": "Codai",
+          "desc": "Página institucional responsiva construída com HTML, CSS e JavaScript, focada em performance de carregamento."
+        },
+        "back-list-api-redis": {
+          "name": "List API com Redis",
+          "desc": "API em TypeScript e Node.js com camada de cache em Redis, explorando estratégias de invalidação e redução de latência nas consultas."
+        },
+        "docker-django-api": {
+          "name": "Django REST API em Docker",
+          "desc": "Projeto modelo de API Django REST totalmente containerizada, com Docker Compose e configuração pronta para desenvolvimento e deploy."
+        },
+        "produto-api": {
+          "name": "Produto API",
+          "desc": "API de cadastro de produtos em Python e Django REST Framework, com operações CRUD e validação de dados."
+        },
+        "course-app": {
+          "name": "Course App",
+          "desc": "Aplicativo modelo de cursos em React Native e Expo, rodando em Android e iOS, com build de release publicada."
+        },
+        "myshop-mvc": {
+          "name": "MyShop MVC",
+          "desc": "E-commerce construído em ASP.NET MVC e C#, com catálogo de produtos, carrinho e a arquitetura MVC do .NET Framework."
+        }
+      }
+    },
+    "skills": {
+      "title": "Stack",
+      "eyebrow": "Tecnologias",
+      "groups": [
+        { "label": "Core", "items": ["TypeScript", "Node.js", "NestJS", "PostgreSQL", "React", "Next.js"] },
+        { "label": "Backend & APIs", "items": ["REST APIs", "BullMQ", "Redis", "TypeORM", "JWT", "OAuth2", "Microsserviços", "CI/CD"] },
+        { "label": "Cloud & Infra", "items": ["Docker", "AWS", "S3/MinIO", "Cloud Native"] },
+        { "label": "Outros", "items": ["Python", "Django", "Angular", "MySQL", "MongoDB", "Jest", "Git", "GitLab", "Figma", "Scrum"] }
+      ]
+    },
+    "education": {
+      "title": "Formação e certificações",
+      "eyebrow": "Base",
+      "degrees_title": "Formação acadêmica",
+      "items": [
+        { "degree": "MBA em Engenharia de Software", "school": "Faculdade Metropolitana, Brasil", "period": "2020" },
+        { "degree": "Bacharelado em Administração", "school": "Anhanguera, Brasil", "period": "2008 – 2011" },
+        { "degree": "Técnico em Informática", "school": "Escola Joana D'Arc, Brasil", "period": "2006 – 2008" }
+      ],
+      "certifications_title": "Certificações",
+      "certifications": [
+        "Angular — Performance Avançada e Conceitos de Otimização (Udemy)",
+        "Práticas Avançadas em Projetos ReactJS (Udemy)",
+        "AWS Partner: Technical Accreditation (Amazon Web Services)",
+        "Observabilidade (Full Cycle)",
+        "Introdução a MongoDB e Bancos NoSQL"
+      ],
+      "languages_title": "Idiomas",
+      "languages": [
+        { "name": "Português", "level": "Nativo" },
+        { "name": "Inglês", "level": "Proficiência profissional plena" }
+      ]
+    },
+    "footer": {
+      "title": "Vamos conversar",
+      "eyebrow": "Contato",
+      "note": "Aberto a oportunidades remotas e a realocação.",
+      "email_label": "E-mail",
+      "social": "Redes",
+      "rights": "Todos os direitos reservados.",
+      "built": "Construído sem frameworks — HTML, CSS e JavaScript puro."
+    },
+    "a11y": {
+      "skip": "Pular para o conteúdo",
+      "github": "Perfil no GitHub",
+      "linkedin": "Perfil no LinkedIn",
+      "stackoverflow": "Perfil no Stack Overflow",
+      "instagram": "Perfil no Instagram",
+      "top": "Voltar ao topo"
+    }
+  },
+
+  "en": {
+    "locale": "en-US",
+    "meta": {
+      "title": "Rodrigo Pereira — Senior Full Stack Developer",
+      "description": "Senior Full Stack Developer with 6+ years of experience in TypeScript, Node.js, NestJS and PostgreSQL. Scalable APIs, async queues and data security.",
+      "keywords": "typescript, node.js, nestjs, postgresql, backend, full stack, react, next.js, docker, aws, redis, bullmq, typeorm, brazil, remote, relocation"
+    },
+    "nav": {
+      "brand": "Rodrigo Pereira",
+      "about": "About",
+      "experience": "Experience",
+      "projects": "Projects",
+      "stack": "Stack",
+      "contact": "Contact",
+      "menu": "Menu",
+      "lang_group": "Select language",
+      "lang_pt": "Mudar para português",
+      "lang_en": "Switch to English"
+    },
+    "hero": {
+      "name": "Rodrigo da Cunha Pereira",
+      "role": "Senior Full Stack Developer",
+      "typing": ["TypeScript", "Node.js", "NestJS", "PostgreSQL"],
+      "tagline": "6+ years building production-grade backend systems — scalable APIs, async queues and data security.",
+      "location": "Rio Grande, RS, Brazil · Open to remote and relocation",
+      "cta_projects": "View projects",
+      "cta_contact": "Get in touch"
+    },
+    "about": {
+      "title": "About",
+      "eyebrow": "Who I am",
+      "summary": "Full Stack Developer with 6+ years of experience delivering production-grade backend systems, with a strong focus on TypeScript, Node.js/NestJS and PostgreSQL. I have designed and deployed scalable API integrations — including a Banco do Brasil payment slip service that reduced manual processing by over 40% — and built async queue systems with BullMQ/Redis that improved throughput and system resilience.",
+      "summary2": "I have hands-on experience with cloud-native deployments on AWS, CI/CD pipelines, Docker and observability tools. My most recent work involves government-sector systems in the health and judiciary domains, where data consistency, security and zero-downtime migrations are critical requirements.",
+      "highlights": [
+        { "value": "6+", "label": "years of experience" },
+        { "value": "40%", "label": "reduction in manual payment processing" },
+        { "value": "5", "label": "companies and domains" }
+      ]
+    },
+    "experience": {
+      "title": "Experience",
+      "eyebrow": "Career",
+      "current": "Present",
+      "more": "Show more",
+      "items": [
+        {
+          "role": "Software Development Analyst",
+          "company": "Global Hitss",
+          "location": "Brazil (Remote)",
+          "start": "2022-12",
+          "end": null,
+          "summary": "Full stack developer on government systems in the health and judiciary domains, integrating with Brazilian financial and regulatory services.",
+          "bullets": [
+            "Built a boleto registration service integrated with Banco do Brasil's REST API — including OAuth2 authentication, payload mapping and sandbox/HML/production environment setup — reducing manual payment processing effort by approximately 40%.",
+            "Designed async processing pipelines in NestJS using BullMQ and Redis, evaluating multiple patterns (polling, webhook, WebSocket, reply-queue RPC) and selecting the approach that best balanced throughput, maintainability and native NestJS support.",
+            "Modeled and maintained PostgreSQL schemas for health and judiciary domains, applying consistent naming standards and the Expand-Migrate-Contract pattern to support safe, zero-downtime production migrations.",
+            "Implemented draft-and-submit workflows with validation logic split between frontend and backend, preserving data integrity while keeping a clean UX — reducing data loss incidents to near zero.",
+            "Set up JWT authentication with refresh tokens, httpOnly cookies, CORS with credentials and single-session control, strengthening the application's security posture.",
+            "Diagnosed and resolved production issues including duplicate boleto registrations, SQL inconsistencies and enum/relationship mismatches in PostgreSQL running inside Docker containers, improving system stability.",
+            "Used TypeORM for junction tables and transactional operations with timeout/rollback, Next.js for SSR debugging and bundle analysis, and MinIO/S3 for file storage integration."
+          ]
+        },
+        {
+          "role": "Software Development Analyst",
+          "company": "Stefanini Brasil",
+          "location": "Brazil (Remote)",
+          "start": "2021-11",
+          "end": "2022-12",
+          "summary": "Full stack developer on enterprise cloud projects.",
+          "bullets": [
+            "Developed and maintained features using TypeScript, Node.js, Angular and MySQL in an AWS environment with Jenkins CI/CD pipelines, contributing to faster and more reliable release cycles.",
+            "Designed and integrated RESTful APIs as part of Scrum sprint cycles, collaborating across teams to deliver consistent, well-documented endpoints.",
+            "Identified and fixed performance bottlenecks and integration failures in production, contributing to improved system availability."
+          ]
+        },
+        {
+          "role": "Full Stack Developer",
+          "company": "Paipe | Tecnologia e Inovação",
+          "location": "Campo Bom, RS, Brazil",
+          "start": "2021-09",
+          "end": "2021-11",
+          "summary": "NestJS backend following Hexagonal Architecture and React frontend from project inception.",
+          "bullets": [
+            "Built backend features with NestJS following Hexagonal Architecture principles and developed React/Material UI components, establishing a solid foundation from project inception.",
+            "Collaborated on REST API design and frontend integration, helping define architectural standards adopted throughout the project."
+          ]
+        },
+        {
+          "role": "Software Developer",
+          "company": "Xerox Komaki",
+          "location": "Rio Grande, RS, Brazil",
+          "start": "2019-01",
+          "end": "2021-09",
+          "summary": "Internal web systems and automations, from development through deployment.",
+          "bullets": [
+            "Developed and deployed internal web systems and automations using Node.js, React, Django and React Native on AWS, GitHub Pages and Hostinger, consolidating previously manual workflows.",
+            "Built custom web applications with HTML/CSS/JS, Bootstrap and ASP.NET MVC, covering both the full development cycle and UI/UX prototyping in Figma."
+          ]
+        },
+        {
+          "role": "IT Technician",
+          "company": "Xerox Komaki",
+          "location": "Rio Grande, RS, Brazil",
+          "start": "2015-07",
+          "end": "2019-01",
+          "summary": "IT support and maintenance for internal systems, digital marketing and websites.",
+          "bullets": [
+            "Handled IT support, troubleshooting and maintenance for internal systems; managed digital marketing campaigns and maintained websites using HTML, CSS and JavaScript."
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "eyebrow": "What I've built",
+      "featured_label": "Featured",
+      "opensource_label": "Open source",
+      "demo": "Demo",
+      "code": "Code",
+      "release": "Download APK",
+      "private": "Professional work · private code",
+      "items": {
+        "boleto-bb": {
+          "name": "Boleto Registration Service — Banco do Brasil API",
+          "desc": "End-to-end integration with Banco do Brasil's REST API for boleto registration, including OAuth2 token management, full payload mapping (nosso_numero generation, FEBRABAN field formatting) and support for sandbox, HML and production environments. Async processing via BullMQ reduced synchronous load and improved resilience to external API timeouts."
+        },
+        "gov-backend": {
+          "name": "Government Health & Judiciary Backend",
+          "desc": "Designed the PostgreSQL schema and NestJS service layer for a multi-domain government platform. Implemented zero-downtime migrations (Expand-Migrate-Contract), JWT authentication with single-session control and S3-compatible file storage. Resolved critical production data consistency issues under live conditions."
+        },
+        "modelflix": {
+          "name": "ModelFlix",
+          "desc": "Streaming catalog interface built with SCSS and JavaScript, featuring responsive carousels and a layout inspired by video platforms."
+        },
+        "frontend-player": {
+          "name": "Frontend Player",
+          "desc": "Media player interface built over a weekend, with custom controls in plain HTML, CSS and JavaScript."
+        },
+        "linkbio": {
+          "name": "LinkBio",
+          "desc": "Lightweight, fully responsive link-in-bio landing page."
+        },
+        "codai": {
+          "name": "Codai",
+          "desc": "Responsive company landing page built with HTML, CSS and JavaScript, focused on load performance."
+        },
+        "back-list-api-redis": {
+          "name": "List API with Redis",
+          "desc": "TypeScript and Node.js API with a Redis caching layer, exploring invalidation strategies and query latency reduction."
+        },
+        "docker-django-api": {
+          "name": "Django REST API on Docker",
+          "desc": "Template project for a fully containerized Django REST API, with Docker Compose and configuration ready for development and deployment."
+        },
+        "produto-api": {
+          "name": "Product API",
+          "desc": "Product registration API in Python and Django REST Framework, with CRUD operations and data validation."
+        },
+        "course-app": {
+          "name": "Course App",
+          "desc": "Template course app in React Native and Expo, running on Android and iOS, with a published release build."
+        },
+        "myshop-mvc": {
+          "name": "MyShop MVC",
+          "desc": "E-commerce built with ASP.NET MVC and C#, featuring a product catalog, shopping cart and the .NET Framework MVC architecture."
+        }
+      }
+    },
+    "skills": {
+      "title": "Stack",
+      "eyebrow": "Technologies",
+      "groups": [
+        { "label": "Core", "items": ["TypeScript", "Node.js", "NestJS", "PostgreSQL", "React", "Next.js"] },
+        { "label": "Backend & APIs", "items": ["REST APIs", "BullMQ", "Redis", "TypeORM", "JWT", "OAuth2", "Microservices", "CI/CD"] },
+        { "label": "Cloud & Infrastructure", "items": ["Docker", "AWS", "S3/MinIO", "Cloud Native"] },
+        { "label": "Other", "items": ["Python", "Django", "Angular", "MySQL", "MongoDB", "Jest", "Git", "GitLab", "Figma", "Scrum"] }
+      ]
+    },
+    "education": {
+      "title": "Education & certifications",
+      "eyebrow": "Foundation",
+      "degrees_title": "Education",
+      "items": [
+        { "degree": "MBA in Software Engineering", "school": "Faculdade Metropolitana, Brazil", "period": "2020" },
+        { "degree": "BSc in Business Administration", "school": "Anhanguera, Brazil", "period": "2008 – 2011" },
+        { "degree": "Technical Degree in Information Technology", "school": "Escola Joana D'Arc, Brazil", "period": "2006 – 2008" }
+      ],
+      "certifications_title": "Certifications",
+      "certifications": [
+        "Angular — Advanced Performance & Optimization Concepts (Udemy)",
+        "Advanced Practices in ReactJS Projects (Udemy)",
+        "AWS Partner: Technical Accreditation (Amazon Web Services)",
+        "Observability Course (Full Cycle)",
+        "Introduction to MongoDB and NoSQL Databases"
+      ],
+      "languages_title": "Languages",
+      "languages": [
+        { "name": "Portuguese", "level": "Native" },
+        { "name": "English", "level": "Full professional proficiency" }
+      ]
+    },
+    "footer": {
+      "title": "Let's talk",
+      "eyebrow": "Contact",
+      "note": "Open to remote and relocation opportunities.",
+      "email_label": "Email",
+      "social": "Social",
+      "rights": "All rights reserved.",
+      "built": "Built without frameworks — plain HTML, CSS and JavaScript."
+    },
+    "a11y": {
+      "skip": "Skip to content",
+      "github": "GitHub profile",
+      "linkedin": "LinkedIn profile",
+      "stackoverflow": "Stack Overflow profile",
+      "instagram": "Instagram profile",
+      "top": "Back to top"
+    }
+  }
+}
