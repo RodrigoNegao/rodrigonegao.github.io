@@ -19,7 +19,7 @@
       "lang_en": "Switch to English"
     },
     "hero": {
-      "name": "Rodrigo da Cunha Pereira",
+      "name": "Rodrigo Pereira",
       "role": "Desenvolvedor Full Stack Sênior",
       "typing": ["TypeScript", "Node.js", "NestJS", "PostgreSQL"],
       "tagline": "6+ anos construindo sistemas backend de produção — APIs escaláveis, filas assíncronas e segurança de dados.",
@@ -239,7 +239,7 @@
       "lang_en": "Switch to English"
     },
     "hero": {
-      "name": "Rodrigo da Cunha Pereira",
+      "name": "Rodrigo Pereira",
       "role": "Senior Full Stack Developer",
       "typing": ["TypeScript", "Node.js", "NestJS", "PostgreSQL"],
       "tagline": "6+ years building production-grade backend systems — scalable APIs, async queues and data security.",
